@@ -16,7 +16,7 @@ const projects = [
       "A full-stack Movie Booking web application using the MERN stack featuring user, admin authentication, movie bookings and cancellations, adding movies by admin and distinct profiles for users and admins. Contains movie search and filter features",
     image: "/images/photo1.jpg",
     tags: ["React", "MongoDB", "Node", "Express"],
-    link: "",
+    link: "#",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projects = [
     description: "Real-time analytics dashboard with interactive charts and data visualization.",
     image: "/images/photo3.jpg",
     tags: ["Next.js", "Chart.js", "Node.js"],
-    link: "",
+    link: "##",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const projects = [
     description:
       "Showing all cities using opendatasoft API, in a table format with infinite scroll feature. The table has columns city name, country, time zone, etc. and clicking on each city row, navigates to the weather page for that particular city. Implemented weather details via openweathermap api",
     image: "/images/photo6.jpg",
-    link: "",
+    link: "##",
     tags: ["React", "Typescript", "Tailwind"],
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     description:
       "The Goal Accomplish web application is designed for efficient goal management and tracking. Users can check and uncheck goals to monitor their progress individually, and a swipe-to-right feature allows for bulk goal tracking. The progress bar updates dynamically, showing completion percentages based on the total number of goals.",
     image: "/images/photo5.png",
-    link:"",
+    link:"#",
     tags: ["Next"],
   },
 ]
