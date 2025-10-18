@@ -24,7 +24,7 @@ const projects = [
     description: "Real-time analytics dashboard with interactive charts and data visualization.",
     image: "/images/photo3.jpg",
     tags: ["Next.js", "Chart.js", "Node.js"],
-    link: "##",
+    link: "#",
   },
   {
     id: 4,
