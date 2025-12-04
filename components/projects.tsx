@@ -11,6 +11,14 @@ const projects = [
   },
   {
     id: 2,
+    title: "Meetly",
+    description: "📹 WebRTC 1-to-1 Video Calling App with screen sharing, mute/camera toggle, chat facility, and a Google Meet–style layout",
+    image: "/images/videoCalling.png",
+    tags: ["Next.js", "React", "Typescript", "Tailwind", "Node.js", "Socket.io", "WebRTC"],
+    link: "https://video-calling-app-drab.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Movie Booking",
     description:
       "A full-stack Movie Booking web application using the MERN stack featuring user, admin authentication, movie bookings and cancellations, adding movies by admin and distinct profiles for users and admins. Contains movie search and filter features",
@@ -18,41 +26,41 @@ const projects = [
     tags: ["React", "MongoDB", "Node", "Express"],
     link: "#",
   },
-  {
-    id: 3,
-    title: "Analytics Dashboard",
-    description: "Real-time analytics dashboard with interactive charts and data visualization.",
-    image: "/images/photo3.jpg",
-    tags: ["Next.js", "Chart.js", "Node.js"],
-    link: "#",
-  },
-  {
-    id: 4,
-    title: "Advanced Responsive Weather App",
-    description:
-      "Showing all cities using opendatasoft API, in a table format with infinite scroll feature. The table has columns city name, country, time zone, etc. and clicking on each city row, navigates to the weather page for that particular city. Implemented weather details via openweathermap api",
-    image: "/images/photo6.jpg",
-    link: "##",
-    tags: ["React", "Typescript", "Tailwind"],
-  },
-  {
-    id: 5,
-    title: "Google Keep Clone",
-    description:
-      "This software is a Google Keep–style note-taking app using React, with reusable, modular components (input area, notes grid, note card, controls).",
-    image: "/images/photo4.png",
-    link: "https://modern-note-taking-web-app.vercel.app/",
-    tags: ["React", "Tailwind"],
-  },
-  {
-    id: 6,
-    title: "Goal Tracker",
-    description:
-      "The Goal Accomplish web application is designed for efficient goal management and tracking. Users can check and uncheck goals to monitor their progress individually, and a swipe-to-right feature allows for bulk goal tracking. The progress bar updates dynamically, showing completion percentages based on the total number of goals.",
-    image: "/images/photo5.png",
-    link:"#",
-    tags: ["Next"],
-  },
+  // {
+  //   id: 3,
+  //   title: "Analytics Dashboard",
+  //   description: "Real-time analytics dashboard with interactive charts and data visualization.",
+  //   image: "/images/photo3.jpg",
+  //   tags: ["Next.js", "Chart.js", "Node.js"],
+  //   link: "#",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Advanced Responsive Weather App",
+  //   description:
+  //     "Showing all cities using opendatasoft API, in a table format with infinite scroll feature. The table has columns city name, country, time zone, etc. and clicking on each city row, navigates to the weather page for that particular city. Implemented weather details via openweathermap api",
+  //   image: "/images/photo6.jpg",
+  //   link: "##",
+  //   tags: ["React", "Typescript", "Tailwind"],
+  // },
+  // {
+  //   id: 5,
+  //   title: "Google Keep Clone",
+  //   description:
+  //     "This software is a Google Keep–style note-taking app using React, with reusable, modular components (input area, notes grid, note card, controls).",
+  //   image: "/images/photo4.png",
+  //   link: "https://modern-note-taking-web-app.vercel.app/",
+  //   tags: ["React", "Tailwind"],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Goal Tracker",
+  //   description:
+  //     "The Goal Accomplish web application is designed for efficient goal management and tracking. Users can check and uncheck goals to monitor their progress individually, and a swipe-to-right feature allows for bulk goal tracking. The progress bar updates dynamically, showing completion percentages based on the total number of goals.",
+  //   image: "/images/photo5.png",
+  //   link:"#",
+  //   tags: ["Next"],
+  // },
 ]
 
 export default function Projects() {
