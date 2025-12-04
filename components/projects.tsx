@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Eduportal",
-    description: "A educational web application involving quizzes, self-paced courses for students, professionals.",
+    description: "An educational web application involving quizzes, self-paced courses for students, professionals. It has AI-powered course discovery chatbot using Google Gemini 2.0 Flash, enabling natural-language search through category extraction, fuzzy matching, Prisma queries, and personalized responses.",
     image: "/images/photo0.png",
     tags: ["Next.js", "React", "Typescript", "Tailwind", "Razorpay", "PostgreSQL"],
     link: "https://learning-app-ww1w.vercel.app/",
